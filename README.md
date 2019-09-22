@@ -57,9 +57,10 @@ sensor.formated_values
 ```
 
 ## <b>Driver Benchmark for Memory Consumed*:</b>
-*To import all dependencies and construct the object.
 
 |       |ESP8266|ESP32|LoPy|
 |------:|:-----:|:---:|:--:|
-|Memory (Bytes)|-|-|-|
+|Total Memory device (Kb)|64|520|200|
+|Memory Free (Kb)||||
+|Memory Uses (Kb)|-|-|-|
 |Memory (%)|-|-|-|
