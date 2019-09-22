@@ -1,5 +1,8 @@
-﻿# MicroPython-VEML6075
+# MicroPython-VEML6075
  Driver base for the VEML6075 UV Light Sensor
+ 
+> The VEML6075 senses UVA and UVB light and incorporates photodiode, amplifiers, and analog / digital circuits into a single chip using a CMOS process. When the UV sensor is applied, it is able to detect UVA and UVB intensity to provide a measure of the signal strength as well as allowing for UVI measurement.
+ 
 ### <b>DataSheet:</b>
 https://www.digchip.com/datasheets/parts/datasheet/3951/VEML6075-pdf.php (in 09/21/2019) or file <i>'VEML6075_datasheet.pdf'</i><br>
 
