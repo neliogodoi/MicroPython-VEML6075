@@ -33,7 +33,7 @@ from machine import I2C, Pin
 i2c = I2C(sda=Pin(4), scl=Pin(5))
 sensor = veml6075.VEML6075(i2c=i2c)
 
-sensor.formated_values
+sensor.uv_index
 ```
 #### ESP32
 ```python
@@ -43,7 +43,7 @@ from machine import I2C, Pin
 i2c = I2C(sda=Pin(21), scl=Pin(22))
 sensor = veml6075.VEML6075(i2c=i2c)
 
-sensor.formated_values
+sensor.uv_index
 ```
 #### LoPy
 ```python
@@ -53,14 +53,16 @@ from machine import I2C
 i2c = I2C(0, I2C.MASTER, baudrate=100000)
 sensor = veml6075.VEML6075(i2c=i2c)
 
-sensor.formated_values
+sensor.uv_index
 ```
 
 ## <b>Driver Benchmark for Memory Consumed*:</b>
+> MicroPython v1.11-8-g48dcbbe60 on 2019-05-29; ESP module with ESP8266
 
 |       |ESP8266|ESP32|LoPy|
 |------:|:-----:|:---:|:--:|
 |Total Memory device (Kb)|64|520|200|
-|Memory Free (Kb)||||
-|Memory Uses (Kb)|-|-|-|
-|Memory (%)|-|-|-|
+|MicroPython Consumes (kb)|31,75| | |
+|Memory Free (Kb)|32.25|||
+|Driver Uses  Memory  (Kb)|2.75|-|-|
+|Driver Uses  Memory Free (%)|~8.53|-|-|
