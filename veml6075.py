@@ -2,7 +2,7 @@
  Version: 0.0.1
  Author: Nelio Goncalves Godoi
  E-mail: neliogodoi@yahoo.com.br
- Last Update: 02/04/2018
+ Last Update: 22/09/2019
  Based on the work by author ladyada (2018) for Adafruit Industries
 	(https://github.com/adafruit/Adafruit_CircuitPython_VEML6075)
 """
