@@ -65,7 +65,6 @@ sensor.uv_index
 |       |ESP8266|ESP32|LoPy|
 |------:|:-----:|:---:|:--:|
 |Total Memory device (Kb)|64|520|200|
-|MicroPython Consumes (kb)|31,75| | |
-|Memory Free (Kb)|32.25|||
-|Driver Uses  Memory  (Kb)|2.75|-|-|
-|Driver Uses  Memory Free (%)|~8.53|-|-|
+|MicroPython Consumes (kb)|31,75|388,25| |
+|Memory Free (Kb)|32.25|111.75||
+|Driver Uses  Memory  (Kb)|2.75|3.52|-|

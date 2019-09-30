@@ -1,3 +1,5 @@
+#  Last Update: 22/09/2019
+
 import veml6075
 from machine import I2C, Pin
 i2c = I2C(sda=Pin(5), scl=Pin(4))
@@ -23,5 +25,12 @@ Type "help()" for more information.
 >>> gc.mem_free()
 30208
 >>> 
->>> 
+
+32.25 Kb -> 100 %
+ 2.75 Kb ->   x %
+ 
+32.75 * x = 100 * 2.75
+
+x = ( 100 * 2.75 ) / 32.25
+X = ~ 8.53 %
 """
